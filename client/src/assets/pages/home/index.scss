@@ -1,0 +1,257 @@
+#home{
+    .homepage{
+     .top-section{
+        background-color: #1c1c1c;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container{
+            .top-sec{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                gap: 700px;
+                .contact{
+                    display: flex;
+                    justify-content:center;
+                    align-items: center;
+                    gap: 30px;
+                    .text{
+                        .contact-p{
+                            color: #999999;
+                            font-size: 14px;
+                            font-family: 'Ubuntu', sans-serif;
+                            margin-right: 10px;
+                        }
+                        .contact-span{
+                            font-size: 14px;
+                            color: #999999;
+                            font-family: 'Ubuntu', sans-serif;
+                        }
+                    }
+                    .icon{
+                        width: 60%;
+                        height: 50px;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        i{
+                            color: #698cf0;
+                            font-size: 20px;
+                        }
+                    }
+                    }
+                }
+            }
+        }
+        .bottom-sec{
+            background-image:
+            linear-gradient(to bottom, rgba(24, 23, 23, 0.72), rgba(24, 23, 23, 0.72)),
+            url('http://htmlbeans.com/html/swan/images/img05.jpg');
+            height: 700px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .left-side{
+                width: 50%;
+                display: flex;
+                align-items: start;
+                justify-content: center;
+                flex-direction: column;
+                margin-left: 260px;
+                .left-h4{
+                    color: #fff;
+                    font-size: 14px;
+                    font-family: 'Ubuntu', sans-serif;
+                }
+                .left-h2{
+                    color: #fff;
+                    font-size: 48px;
+                    font-family: 'Ubuntu', sans-serif;
+                    margin-bottom: 20px;
+                    .h2-span{
+                        color: #698cf0;
+                    }
+                }
+                .arrow{
+                    margin-left: 630px;  
+                }
+                .left-btn{
+                        width: 180px;
+                        height: 50px;
+                        border: none;
+                        background-color: #698cf0;
+                        color: #fff;
+                        font-family: 'Ubuntu', sans-serif;
+                        font-size: 14px;
+                        border-radius: 5px;
+                        transition: all 0.5s;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: black;
+                        }
+                }
+            }
+            .right-side{
+                width: 500px;
+                height: 450px;
+                margin-right: 270px;
+                background-color: #fff;
+                border-radius: 5px;
+                .form{
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    .right-h1{
+                        font-size: 28px;
+                        color: #1c1c1c;
+                        font-family: 'Ubuntu', sans-serif;
+                        margin-top: 30px;
+                    }
+                    .right-span{
+                        color: #bfae99;
+                        font-family: 'Ubuntu', sans-serif;
+                        font-size: 14px;
+                        margin-top: 10px;
+                        margin-bottom: 70px;
+                    }
+                    .input{
+                        width: 80%;
+                        padding: 20px 0;
+                        border: none;
+                        margin: 5px 45px;
+                    }
+                    .form-btn{
+                        width: 150px;
+                        height: 50px;
+                        border: none;
+                        background-color: #698cf0;
+                        color: #fff;
+                        font-family: 'Ubuntu', sans-serif;
+                        font-size: 14px;
+                        transition: all 0.5s;
+                        margin-left: 290px;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: black;
+                        }
+                    }
+                }
+            }
+        }
+        .about-swan{
+            margin: 8% 0;
+            .container{
+                .about-swan-lake{
+                    .text-h1{
+                        font-size: 28px;
+                        font-family: 'Ubuntu', sans-serif;
+                        margin: 30px 0;
+                        text-align: center;
+                        .text-span{
+                            color: #698cf0;
+                        }
+                    }
+                    .text-p{
+                        color: #999999;
+                        font-size: 14px;
+                        font-family: 'Ubuntu', sans-serif;
+                        width: 50%;
+                        margin-left: 300px;
+                        text-align: center;
+                    }
+                    .swan-cards{
+                        display: flex;
+                        gap: 30px;
+                        margin: 60px;
+                        .swan-card{
+                            display: flex;
+                            align-items: start;
+                            flex-direction: column;
+                            row-gap: 20px;
+                            .swan-span{
+                                font-size: 28px;
+                                font-family: 'Ubuntu', sans-serif;
+                                font-weight: 700;
+                                color: #698cf0;
+                            }
+                            .swan-h4{
+                                font-size: 18px;
+                                color: #1c1c1c;
+                                font-family: 'Ubuntu', sans-serif;
+                            }
+                            .swan-p{
+                                color: #999999;
+                                font-size: 14px;
+                                font-family: 'Ubuntu', sans-serif;
+                            }
+                            .swan-btn{
+                                border: none;
+                                color: #698cf0;
+                                font-size: 12px;
+                                font-family: 'Ubuntu', sans-serif;
+                                transition: all 0.4s;
+                                &:hover{
+                                    color: blue;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .our-service{
+            margin: 90px 0;
+            .container{
+                .service{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-left: 70px;
+                    .left-side-service{
+                        width: 70%;
+                        background-image:
+                        linear-gradient(to bottom, rgba(24, 23, 23, 0.72), rgba(24, 23, 23, 0.72)),
+                        url('http://htmlbeans.com/html/swan/images/img03.jpg');
+                        height: 400px;
+                    }
+                    .right-side-service{
+                        margin-left: 100px;
+                        .service-h4{
+                            font-size: 28px;
+                            color: #1c1c1c;
+                            font-family: 'Ubuntu', sans-serif;
+                            margin: 20px 0;
+                            .service-span{
+                                color: #698cf0;
+                            }
+                        }
+                        .service-p{
+                            font-size: 14px;
+                            color: #999999;
+                            font-family: 'Ubuntu', sans-serif;
+                            line-height: 25px;
+                            width: 75%;
+                        }
+                        .service-h5{
+                            font-size: 14px;
+                            color: #999999;
+                            font-family: 'Ubuntu', sans-serif;
+                            font-weight: 700;
+                            margin: 20px 0;
+                            i{
+                                color: #698cf0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .cards{
+            margin: 100px 0;
+        }
+    }
+}

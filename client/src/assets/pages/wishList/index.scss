@@ -1,0 +1,80 @@
+#wishList{
+    .container{
+        .wish-list{
+            .all-btn{
+                width: 130px;
+                height: 45px;
+                border: none;
+                background-color: #698cf0;
+                color: #fff;
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 14px;
+                transition: all 0.5s;
+                margin: 15px 0;
+                &:hover{
+                    cursor: pointer;
+                    background-color: black;
+                }
+            }
+           .card{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            .wish-card{
+                width: 300px;
+                height: 330px;
+                border: 1px solid #698cf0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 15px 0;
+                .detail-h1{
+                    font-size: 32px;
+                    font-family: 'Ubuntu', sans-serif;
+                    color: #1c1c1c;
+                    margin: 15px 0;
+                }
+                .detail-price{
+                    font-size: 32px;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: 700;
+                    color: #698cf0;
+                    margin: 10px 0;
+                }
+                .detail-h3{
+                    font-size: 16px;
+                    font-family: 'Ubuntu', sans-serif;
+                    color: #1c1c1c;
+                    margin: 10px 0;
+                }
+                .detail-p{
+                    font-size: 14px;
+                    color: #999999;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: 700;
+                    line-height: 25px;
+                    text-align: center;
+                    }
+                    .btns{
+                        .remove-btn{
+                            width: 130px;
+                            height: 45px;
+                            border: none;
+                            background-color: #698cf0;
+                            color: #fff;
+                            font-family: 'Ubuntu', sans-serif;
+                            font-size: 14px;
+                            transition: all 0.5s;
+                            margin: 15px 0;
+                            &:hover{
+                                cursor: pointer;
+                                background-color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

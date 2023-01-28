@@ -1,0 +1,72 @@
+#detail{
+    .container{
+        .detail-cards{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 70px 0;
+            border: 2px solid #1c1c1c;
+            .detail-h1{
+                font-size: 48px;
+                font-family: 'Ubuntu', sans-serif;
+                color: #1c1c1c;
+                margin: 15px 0;
+            }
+            .detail-price{
+                font-size: 32px;
+                font-family: 'Ubuntu', sans-serif;
+                font-weight: 700;
+                color: #698cf0;
+                margin: 10px 0;
+            }
+            .detail-h3{
+                font-size: 16px;
+                font-family: 'Ubuntu', sans-serif;
+                color: #1c1c1c;
+                margin: 10px 0;
+            }
+            .detail-p{
+                font-size: 14px;
+                color: #999999;
+                font-family: 'Ubuntu', sans-serif;
+                font-weight: 700;
+                line-height: 25px;
+                margin: 10px 0;
+            }
+            .btns{
+                display: flex;
+                gap: 30px;
+                margin: 20px 0;
+                .back-btn{
+                    width: 150px;
+                    height: 50px;
+                    border: none;
+                    background-color: #698cf0;
+                    color: #fff;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-size: 14px;
+                    transition: all 0.5s;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: black;
+                    }
+                }
+                .del-btn{
+                    width: 150px;
+                    height: 50px;
+                    border: none;
+                    background-color: #698cf0;
+                    color: #fff;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-size: 14px;
+                    transition: all 0.5s;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: black;
+                    }
+                }
+            }
+        }
+    }
+}
